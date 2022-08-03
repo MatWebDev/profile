@@ -73,6 +73,14 @@ i:hover {
   color: rgb(15, 46, 57);
 }
 
+body .fluo {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 960px) {
